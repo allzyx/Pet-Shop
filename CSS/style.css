@@ -1,0 +1,424 @@
+@import "normalize.css";
+@import "reset.css";
+@import "yui-reset.css";
+@import "yui-base.css";
+@import "h5bp.css";
+
+body {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    background-image: url(../img/cat-and-dog.png);
+    background-repeat: no-repeat;
+    background-position: -30px -20px;
+    width: 100%;
+    height: 99vh;
+    background-size: 120vh;
+    background-size: fixed;
+    position: absolute;
+}
+
+.header {
+    height: 13vh;
+    position: relative;
+}
+
+.logo {
+    background-image: url(../img/logo.png);
+    background-size: 14vw;
+    background-repeat: no-repeat;
+    margin-left: 4vw;
+    height: 9vh;
+    width: 15vw;
+    position: relative;
+    margin-top: 4vh;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    margin-top: -9.5vh;
+    width: 45vw;
+    align-items: right;
+    height: 9vh;
+    text-align: center;
+    margin-right: 2.5vw;
+}
+
+.navigation__element {
+    font-size: 3vh;
+    color: black;
+    height: 9vh;
+    width: 6.5vw;
+    font-weight: 600;
+    align-self: right;
+    line-height: 3;
+}
+
+.navigation__element:hover {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    text-align: center;
+}
+
+.text {
+    float: right;
+    width: 35vw;
+    height: 80vh;
+    position: relative;
+    margin-right: 2.5vw;
+    padding-right: 1vw;
+}
+
+.tagline__text {
+    color: rgb(32, 32, 32);
+    text-align: right;
+    font-size: 9vh;
+    font-weight: 900;
+    position: relative;
+    top: -5vh;
+    right: 0;
+}
+
+.stick {
+    height: 2.5vh;
+    width: 28vw;
+    background-color: rgb(0, 183, 255);
+    float: right;
+    margin-top: -11vh;
+    position: relative;
+}
+
+.healthy-pets {
+    position: relative;
+    top: -7vh;
+    float: right;
+    color: rgb(32, 32, 32);
+    font-size: 4vh;
+}
+
+.description {
+    font-size: 3vh;
+    height: 21vh;
+    width: 26vw;
+    text-align: right;
+    float: right;
+    position: relative;
+    top: -10vh;
+}
+
+.link {
+    position: relative;
+    top: -1vh;
+    font-weight: 900;
+    font-size: 4vh;
+    color: rgb(32, 32, 32);
+}
+
+.social-media {
+    display: flex;
+    float: right;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    position: relative;
+    top: -2vh; 
+    width: 15vw;
+    height: 40px;
+}
+
+.social-media__element {
+    height: 35px;
+    width: 35px;
+}
+
+.telegram {
+    background-image: url(../img/tg-black.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+}
+
+.telegram:hover {
+    background-image: url(../img/tg-hover.png);
+}
+
+.twitter {
+    background-image: url(../img/tw-black.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+}
+
+.twitter:hover {
+    background-image: url(../img/tw-hover.png);
+}
+
+.youtube {
+    background-image: url(../img/yt-black.png);
+    background-size: 38px;
+    background-repeat: no-repeat;
+    width: 45px;
+}
+
+.youtube:hover {
+    background-image: url(../img/yt-hover.png);
+}
+
+.book {
+    font-size: 4vh;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -55vh;
+    right: 4vw;
+    color: rgb(22, 22, 22);
+}
+
+.book::after {
+    content: '';
+    display: inline-block;
+    background-image: url(../img/arrow-icon.svg);
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    width: 4.6vh;
+    height: 4.6vh;
+    background-size: 5vh;
+}
+
+.info-content {
+    background-image: url(../img/cat-3.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 98vh;
+    background-position: 15vh 5vh;
+    background-size: 70vh;
+    background-size: fixed;
+    position: absolute;
+}
+
+.info-text {
+    text-align: justify;
+    float: right;
+    width: 50vw;
+    height: 80vh;
+    position: relative;
+    margin-right: 2.5vw;
+    padding-right: 1vw;
+}
+
+.info-stick {
+    height: 2.5vh;
+    width: 41vw;
+    background-color: rgb(0, 183, 255);
+    float: right;
+    margin-top: -11vh;
+    position: relative;
+}
+
+.info-description {
+    font-size: 3vh;
+    height: 21vh;
+    width: 40vw;
+    text-align: justify;
+    float: right;
+    position: relative;
+    top: -10vh;
+    text-align-last: right;
+}
+
+.contacts-content {
+    background-image: url(../img/cat-background.jpg);
+    background-repeat: no-repeat;
+    background-position: 15vw 5vh;
+    width: 100%;
+    height: 99vh;
+    background-size: 125vh;
+    background-size: fixed;
+    position: absolute;
+}
+
+.contacts-stick {
+    height: 2.5vh;
+    width: 35vw;
+    background-color: rgb(0, 183, 255);
+    float: right;
+    margin-top: -11vh;
+    position: relative;
+}
+
+.contacts-text {
+    float: right;
+    width: 30vw;
+    height: 80vh;
+    position: relative;
+    margin-right: 2.5vw;
+    padding-right: 1vw;
+}
+
+.contacts-social-media {
+    display: flex;
+    float: right;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: -9vh;
+    width: 14vw;
+    height: 40px;
+}
+
+.contacts-header-2 {
+    position: relative;
+    top: -3vh;
+    float: right;
+    display: block;
+    width: 100%;
+    text-align: right;
+    line-height: 1.8;
+    font-size: 5vh;
+}
+
+.mail {
+    color: rgb(0, 183, 255);
+    font-weight: 600;
+    position: relative;
+    top: -2vh;
+    font-size: 5vh;
+}
+
+.hotline {
+    position: relative;
+    top: -11vh;
+    float: right;
+    width: 100%;
+    font-size: 5vh;
+    line-height: 1.8;
+}
+
+.number {
+    color: rgb(0, 183, 255);
+    font-weight: 600;
+    position: relative;
+    top: -1vh;
+    font-size: 5vh;
+}
+
+.faq-content {
+    background-image: url(../img/cat-2.png);
+    background-repeat: no-repeat;
+    background-position: 1vw 4vh;
+    width: 100%;
+    height: 99vh;
+    background-size: 110vh;
+    background-size: fixed;
+    position: absolute;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: rgb(32, 32, 32);
+    text-decoration: underline dotted;
+}
+
+li:hover {
+    color:rgb(0, 183, 255);
+    text-decoration: none;
+}
+.questions {
+    width: 39vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -5vh;
+    right: -9vw;
+    font-size: 3vh;
+    line-height: 1.8;
+}
+
+.header-faq-1 {
+    position: relative;
+    right: 1.5vh;
+}
+
+.header-faq-2 {
+    position: relative;
+}
+
+.faq-list-1 {
+    position: relative;
+    left: -3vw;
+}
+
+.fix-problem {
+    text-align: right;
+}
+
+.stock-content {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: 15vh 5vh;
+    background-size: 70vh;
+    background-size: fixed;
+    position: absolute;
+}
+
+.swiper{
+    height: 80vh;
+    width: 92%;
+    margin-left: 0;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    vertical-align: middle;
+  }
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .img-swiper {
+      max-height: 100vh;
+  }
+
+
+  .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+  }
